@@ -1,2 +1,3 @@
 # basic-recipes-website-
-a recipe website 
+a basic recipe website to practice and learn html
+
