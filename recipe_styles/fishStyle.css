@@ -1,0 +1,108 @@
+html{
+    min-height: 100vh; 
+    
+    background: linear-gradient(180deg, #7395AE, #304a5f) fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Libre Baskerville', sans-serif;
+    height: 100%;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.fishRecipe img{
+    position: relative;
+    top: 100px;
+    display: block;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 0;
+    border: 0.5em double #263846;
+    box-sizing: border-box;
+    border-radius: 3em;
+    background:#5978a0;
+    
+}
+
+.infoBox{
+    
+    margin-top: 0px;
+    top: 8em;
+    width: 45em;
+    height: 105em;
+    align-items: center;
+    border: 0.5em double #263846;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 3em;
+    background:#33556d;
+
+}
+.title h1{
+    
+    text-align: center;
+    color: transparent;
+    font-size: 70px;
+    margin-bottom: 25px;
+    background-image: url(https://media.giphy.com/media/h6x0ROdzJy4TKyUu1b/giphy-downsized-large.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+    padding-top: 70px;
+    
+}
+
+.discription h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+   
+}
+
+.discription p{
+    margin-top: 8px;
+    padding: 10px 35px 35px 35px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
+}
+
+.ingred h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+
+} 
+
+.ingred ul{
+    color: white;
+    font-size: 18px;
+    padding-left: 80px;
+    
+}
+.Direct h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.Direct ol{
+    color: white;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-size: 17px;
+    
+}
+.image2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 0.5em double #263846;
+    border-radius: 78em;
+}

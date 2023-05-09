@@ -1,0 +1,108 @@
+html{
+    min-height: 100vh; 
+    
+    background: linear-gradient(180deg, #505c4c, #7b9c71) fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Libre Baskerville', sans-serif;
+    height: 100%;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.oniRecipe img{
+    position: relative;
+    top: 100px;
+    display: block;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 0;
+    border: 0.5em double #9eb496;
+    box-sizing: border-box;
+    border-radius: 3em;
+    background:rgb(41, 71, 51);
+    
+}
+
+.infoBox{
+    
+    margin-top: 0px;
+    top: 8em;
+    width: 45em;
+    height: 110em;
+    align-items: center;
+    border: 0.5em double #9eb496;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 3em;
+    background:rgb(41, 71, 51);
+
+}
+.title h1{
+    
+    text-align: center;
+    color: transparent;
+    font-size: 70px;
+    margin-bottom: 25px;
+    background-image: url(https://media.giphy.com/media/26BRymgUbHvtAAAzS/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+    padding-top: 70px;
+    
+}
+
+.discription h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+   
+}
+
+.discription p{
+    margin-top: 8px;
+    padding: 10px 35px 35px 35px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
+}
+
+.ingred h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+
+} 
+
+.ingred ul{
+    color: white;
+    font-size: 18px;
+    padding-left: 80px;
+    
+}
+.Direct h2{
+    margin-top: 0px;
+    padding-left: 12px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.Direct ol{
+    color: white;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-size: 17px;
+    
+}
+.image2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 0.5em double #9eb496;
+    border-radius: 78em;
+}
