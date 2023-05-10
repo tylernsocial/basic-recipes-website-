@@ -20,7 +20,7 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:#94795b;
-    
+    animation: slideInTop 1s ease-in 0s;
 }
 
 .infoBox{
@@ -35,6 +35,7 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:#94795b;
+    animation: slideInLeft 1s ease-in 0s;
 
 }
 .title h1{
@@ -105,4 +106,20 @@ html{
     width: 400px;
     border: 0.5em double #ffc889;
     border-radius: 78em;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-1110px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInTop{
+    from{
+        transform: translateY(-400px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }

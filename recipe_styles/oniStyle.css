@@ -20,6 +20,7 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:rgb(41, 71, 51);
+    animation: slideInTop 1s ease-in 0s;
     
 }
 
@@ -35,7 +36,9 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:rgb(41, 71, 51);
-
+    animation: slideInLeft 1s ease-in 0s;
+    
+   
 }
 .title h1{
     
@@ -56,7 +59,7 @@ html{
     color: white;
     font-size: 30px;
     margin-bottom: 0px;
-   
+    
 }
 
 .discription p{
@@ -105,4 +108,21 @@ html{
     width: 400px;
     border: 0.5em double #9eb496;
     border-radius: 78em;
+}
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-1110px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInTop{
+    from{
+        transform: translateY(-400px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }

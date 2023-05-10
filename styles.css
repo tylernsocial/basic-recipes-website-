@@ -11,7 +11,7 @@ html{
     color: white;
     text-align: center;
     font-size: 3vw;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 
@@ -23,23 +23,21 @@ html{
 }
 
 .first img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 40px;
+    margin-left: 36.2%;
     width: 27%;
-    
     border: 0.7em double #2e2419;
     background: #644624;
     padding: 0px;
     border-radius: 30px;
+    
+
 }
 
 .second img{
     width: 27%;
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 36.2%;
     border: 0.7em double #2e2419;
     background: #644624;
     padding: 0px;
@@ -48,9 +46,7 @@ html{
 .third img{
     width: 27%;
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 36.2%;
     border: 0.7em double #2e2419;
     background: #644624;
     padding: 0px;
@@ -59,11 +55,32 @@ html{
 .fourth img{
     width: 27%;
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 36.2%;
     border: 0.7em double #2e2419;
     background: #644624;
     padding: 0px;
     border-radius: 30px;
+    
 }
+
+.first img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 90px 90px   rgba(0, 240, 128, 0.877);
+    
+  }
+.second img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 90px 90px   rgba(0, 183, 255, 0.877);
+    
+  }
+.third img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 90px 90px   rgba(255, 181, 162, 0.877);
+    
+  }
+.fourth img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 90px 90px 90px  rgba(255, 187, 40, 0.877);
+    
+  }
+ 

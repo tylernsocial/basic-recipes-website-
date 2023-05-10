@@ -20,6 +20,7 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:#5978a0;
+    animation: slideInTop 1s ease-in 0s;
     
 }
 
@@ -35,6 +36,7 @@ html{
     box-sizing: border-box;
     border-radius: 3em;
     background:#33556d;
+    animation: slideInLeft 1s ease-in 0s;
 
 }
 .title h1{
@@ -105,4 +107,20 @@ html{
     width: 400px;
     border: 0.5em double #263846;
     border-radius: 78em;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-1110px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInTop{
+    from{
+        transform: translateY(-400px);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
